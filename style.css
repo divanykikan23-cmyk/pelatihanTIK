@@ -5,18 +5,18 @@ body {
 }
 
 .kartu-profil {
-  width: 300px; /* Perbaikan 1: Tambahkan titik koma (;) di akhir */
+  width: 300px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 25px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center; /* Perbaikan 2: Ubah 'teks-align' menjadi 'text-align' */
+  text-align: center;
 }
 
 .kartu-profil img {
-  width: 130px;
-  height: 130px; /* Perbaikan 3: Samakan tinggi dengan lebar agar bulat sempurna */
-  object-fit: cover; /* Perbaikan 4: Agar foto tidak gepeng saat dipotong bulat */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
 }
