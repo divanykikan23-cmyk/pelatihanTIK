@@ -1,20 +1,22 @@
 body {
-  background-color: #A8F9AA; /* Warna hijau cerah */
-  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-  color: #6B4A43; /* Warna teks utama (Coklat Gelap) */
+  background-color: #A8F9AA;
+  font-family: Arial, sans-serif;
+  color: #6B4A43;
 }
 
 .kartu-profil {
-    width: 300px
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-    padding: 20px;
-    background-color: white;
-    border-radius: 15PX; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
-    teks-align: center; /*Menengah semua teks di dalam kartu */
+  width: 300px; /* Perbaikan 1: Tambahkan titik koma (;) di akhir */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center; /* Perbaikan 2: Ubah 'teks-align' menjadi 'text-align' */
 }
 
 .kartu-profil img {
-    width: 130px;
-    border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+  width: 130px;
+  height: 130px; /* Perbaikan 3: Samakan tinggi dengan lebar agar bulat sempurna */
+  object-fit: cover; /* Perbaikan 4: Agar foto tidak gepeng saat dipotong bulat */
+  border-radius: 50%;
 }
